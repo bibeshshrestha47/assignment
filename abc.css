@@ -4,6 +4,9 @@
 		.row{
 			width: 100%;
 		}
+		h1{
+			text-align: center;
+		}
 		section div:nth-child(1){
 			text-align: right;
 		}
