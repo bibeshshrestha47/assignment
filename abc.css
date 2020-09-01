@@ -1,0 +1,52 @@
+		*{
+			box-sizing: border-box;
+		}
+		.row{
+			width: 100%;
+		}
+		section div:nth-child(1){
+			text-align: right;
+		}
+		.box{
+			margin: 10px;
+			padding: 10px;
+			background-color: grey;
+		}
+		.food
+		{
+			padding: 4px;
+		}		
+		#chicken{
+			background-color: blue;
+			border: 2px solid red;
+		}
+		#beef{
+			background-color: red;
+			border: 2px solid green;
+		}
+		#sushi{
+			background-color: green;
+			border: 2px solid blue;
+		}
+
+		
+		@media(min-width: 992px){
+			.col-lg-4{
+				float: left;
+				border: 1px solid;
+				width: 30%;
+			}
+		}
+		@media(min-width:768px) and (max-width: 991px){
+			.col-md-6{
+				float: left;
+				border: 1px solid;
+				width: 45%;
+			}
+		}
+		@media(max-width: 767px){
+			.col-sm-12{
+				float: left;
+				border: 1px solid;
+			}
+		}
